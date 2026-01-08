@@ -1,0 +1,138 @@
+/*
+Theme Name: My Theme
+Author: You
+Version: 1.0
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #ffffff;
+}
+
+/* Header */
+/* ///////////// */
+.main-header {
+    border-bottom: 3px solid #0084ff;
+    background: #ffffff;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.header-container {
+    padding: 0px 0px;
+    width: 10%;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+}
+ 
+/* Logo */
+.header-logo a {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #000000;
+}
+.header-logo img {
+    width: 100px;
+  
+}
+.big-header{
+    width: 70%;
+}
+/* Navigation */
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+      padding: 0;
+    margin: 0;
+}
+.header-nav{
+   display: flex;
+  
+    padding:10px 0px;
+    width: 100%;
+
+}
+.header-nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Right actions */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+    height: 70%;
+    text-align: end;
+    justify-content: end;
+    padding: 0px 50px;
+}
+
+.header-actions a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+}
+
+
+/* Main content */
+.site-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Footer */
+.site-footer {
+    background: #222;
+    color: #b03838;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+/* //////Header and Footer///////// */
+/* ////////////////////////////////////// */
+.site-header,
+.site-footer {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* =======Home======= */
+/* ?????????????????? */
+
+ .big-cat {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    }
+    .big-cat img{
+        border-radius: 20px;
+        width: 400px;
+        
+    }
+h1   {
+    color: white;
+}

@@ -15,24 +15,28 @@
 
             <!-- Logo -->
             <div class="header-logo">
-               <img src="http://ksk-1.test/wp-content/uploads/2026/01/logocat.jpg" alt="">
+               <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/logo-hp-e1767857515616.png" alt="">
             </div>
+            
+            
 
-            <!-- Navigation -->
-            <nav class="header-nav">
-                <ul>
-                    <li><a href="http://ksk-1.test/">Home</a></li>
-                    <li><a href="http://ksk-1.test/clinic-calendar/http://ksk-1.test/clinic-calendar/">Doctor Calendar</a></li>
-                    <li><a href="#">Gifts &amp; Sets</a></li>
-                    <li><a href="#">What's Scent Space?</a></li>
-                    <li><a href="#">Rewards</a></li>
-                </ul>
-            </nav>
-
+            </div>
+            <div class="big-header">
             <!-- Right icons -->
             <div class="header-actions">
-                <a href="#">Sign in</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> 090 847 087</a>
+                <a href="#"><i class="fa-solid fa-calendar-days"></i> Dr Calendar</a>
             </div>
-
+         <!-- Navigation -->
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Doctor Calendar</a></li>
+                    <li><a href="">Gifts &amp; Sets</a></li>
+                    <li><a href="">What's Scent Space?</a></li>
+                    <li><a href="">Rewards</a></li>
+                </ul>
+            </nav>
         </div>
+        
     </header>
