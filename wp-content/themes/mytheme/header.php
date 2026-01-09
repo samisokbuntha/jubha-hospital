@@ -18,10 +18,8 @@
                <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/logo-hp-e1767857515616.png" alt="">
             </div>
             
-            
-
-            </div>
-            <div class="big-header">
+        </div>
+        <div class="big-header">
             <!-- Right icons -->
             <div class="header-actions">
                 <a href="#"><i class="fa-solid fa-phone"></i> 090 847 087</a>
