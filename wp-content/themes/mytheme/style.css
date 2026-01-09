@@ -97,42 +97,121 @@ body {
     background: #fff;
 }
 
-/* Footer */
-.site-footer {
-    background: #222;
-    color: #b03838;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
-/* //////Header and Footer///////// */
+
+
+/* //////Footer1///////// */
 /* ////////////////////////////////////// */
-.site-header,
-.site-footer {
-    background: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+.main-footer{
+   .......
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-/* =======Home======= */
-/* ?????????????????? */
-
- .big-cat {
-    margin: 0;
+.footer-1{
+    background-color: #edf6ff;
+    border-top:3px solid#0084ff;
+    padding-top: 30px;
+     padding-bottom: 30px;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    }
-    .big-cat img{
-        border-radius: 20px;
-        width: 400px;
-        
-    }
-h1   {
+    justify-content: center;
+    gap: 70px;
+}
+
+.footer-contact{
+
+}
+
+.footer-contact h2{
+    
+    color: black;
+    margin-bottom: 30px;
+}
+
+.footer-i i{
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+.footer-s input{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 20px;
+    border: 2px solid #ccc;
+}
+
+#sub {
+   width: 100px;
+    color: rgb(0, 0, 0);
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+
+}
+
+#sub::placeholder {
+    font-size: 15px;
+    font-weight: bold;
     color: white;
+    opacity: 1;
+}
+
+/* /////footer2///// */
+.footer2{
+    
+    display: flex;
+    padding-top: 30px;
+    padding-left: 200px;
+
+}
+
+.footer2-content{
+    display: flex;
+    gap: 120px;
+
+}
+
+.logo-site{
+    padding-right: 250px;
+}
+.logo-site img {
+    width: 150px;
+}
+
+.about-inter {
+    width: 300px;
+}
+
+.about-inter h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.about-inter ul li a{
+    text-decoration: none;
+    color: #000000;
+   
+}
+
+.about-inter li{
+    margin-bottom: 10px;
+}
+
+.find-us{
+  width: 300px;  
+}
+
+.find-us h2{
+    color: #000000;
+     margin-bottom: 20px;
+}
+
+.find-us ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.find-us li{
+     margin-bottom: 10px;
 }
