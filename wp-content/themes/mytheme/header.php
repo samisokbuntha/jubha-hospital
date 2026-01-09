@@ -15,7 +15,7 @@
 
             <!-- Logo -->
             <div class="header-logo">
-               <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/logo-hp-e1767857515616.png" alt="">
+               <img src="<?php echo get_template_directory_uri(); ?>/image/logo1.png" alt="">
             </div>
             
         </div>
