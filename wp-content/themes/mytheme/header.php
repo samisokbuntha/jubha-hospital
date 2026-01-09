@@ -15,7 +15,7 @@
 
             <!-- Logo -->
             <div class="header-logo">
-               <img src="<?php uploads/pic/logo1.png" alt="">
+               <img src="<?php echo get_template_directory_uri(); ?>/image/logo1.png" alt="">
             </div>
             
         </div>
