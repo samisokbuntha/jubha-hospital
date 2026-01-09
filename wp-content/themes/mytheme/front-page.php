@@ -9,4 +9,3 @@
     </div>
 
 <?php get_footer(); ?>
-<h1>kobsari yk-test</h1>
