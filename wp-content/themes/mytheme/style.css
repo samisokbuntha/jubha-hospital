@@ -16,8 +16,39 @@ body {
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 /* Header */
 /* ///////////// */
+=======
+
+.hero-section {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+/* Main content */
+.site-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+/* ///////////////Emergency////////// */
+.emergency {
+    text-align: center;
+    
+}
+
+
+>>>>>>> 2328607b3a0c189e2d16588001a53b5f4858dea4
 
 
 /* //////Footer1///////// */
@@ -25,6 +56,7 @@ body {
 .main-footer{
    .......
 }
+<<<<<<< HEAD
 
 .footer-1{
     background-color: #edf6ff;
@@ -309,4 +341,297 @@ textarea {
     .form-row {
         flex-direction: column;
     }
+=======
+.hero-service {
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+.hero-service img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.backgroun{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+}
+.hero-position {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    margin: 0;
+    padding: 0;
+}
+.hero-position img {
+    width: 400px;
+    height: 400px;
+}
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+}
+.text-hero h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+}
+.text-hero p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+}
+.text-hero {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    color: white;
+}
+.btn-group {
+  position: absolute;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  left: 230px;
+  bottom: 150px;
+  font-family: "Roboto", sans-serif;
+}
+.btn-grou {
+  position: absolute;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  right: 290px;
+  bottom: -100px;
+  font-family: "Roboto", sans-serif;
+}
+.btn-grou :hover {
+  background-color: #231eaf;
+}
+
+.btn-appointment {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 14px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-appointment:hover {
+  background-color: #2c1eaf;
+}
+
+.btn-outline {
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  padding: 14px 30px;
+  border: 1px solid  #cb1515;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #c92020;
+  color: #ffffff;
+}
+.text-button {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+.text-buttonn {
+    position: absolute;
+    bottom: 20px;
+    left: 240px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+.text-buttonnn {
+    position: absolute;
+    bottom: 20px;
+    left: 440px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 992px) {}
+
+  /* MENU */
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  li {
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  /* Container and Layout */
+.almana-about-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+    width: 100%;
+}
+
+.almana-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 0 20px;
+}
+
+/* Text Styling */
+.almana-content {
+    flex: 1;
+}
+
+.almana-subtitle {
+    color: #008b8b;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+.header-nav{
+   display: flex;
+  
+    padding:10px 0px;
+    width: 100%;
+
+}
+.header-nav a {
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: 0.3s ease;
+}
+.almana-arrow{
+    font-size: 20px;
+}
+.almana-btn:hover {
+    background-color: #22d3ee;
+    color: #fff;
+}
+
+.almana-arrow {
+    margin-left: 10px;
+}
+
+/* Image Card Styling */
+.almana-visual {
+    flex: 1;
+}
+
+.almana-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.almana-card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Gradient Overlay */
+.almana-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(10, 46, 46, 0.8) 0%, transparent 50%);
+}
+
+/* Play Button Overlay */
+.almana-play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.almana-play-circle {
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgba(255,255,255,0.6);
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.almana-triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 18px solid white;
+    margin-left: 5px;
+}
+
+.header-actions a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+}
+
+
+/* Main content */
+.site-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Footer */
+.site-footer {
+    background: #222;
+    color: #b03838;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+>>>>>>> 2328607b3a0c189e2d16588001a53b5f4858dea4
 }
