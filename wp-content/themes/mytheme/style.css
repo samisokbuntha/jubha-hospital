@@ -343,34 +343,3 @@ img {
     padding: 15px;
     margin-top: 40px;
 }
-/* //////Header and Footer///////// */
-/* ////////////////////////////////////// */
-.site-header,
-.site-footer {
-    background: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
-
-
- .big-cat {
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    }
-    .big-cat img{
-        border-radius: 20px;
-        width: 400px;
-        
-    }
-h1   {
-    color: white;
-}
