@@ -39,5 +39,3 @@
         </div>
 
     </header>2
-=========
->>>>>>>>> Temporary merge branch 2
