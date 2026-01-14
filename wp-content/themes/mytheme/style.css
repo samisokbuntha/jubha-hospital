@@ -29,6 +29,21 @@ body {
 
 
 
+/* Main content */
+.site-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+/* ///////////////Emergency////////// */
+.emergency {
+    text-align: center;
+    
+}
+
+
 
 
 /* //////Footer1///////// */

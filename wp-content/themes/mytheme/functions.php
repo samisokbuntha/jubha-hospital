@@ -27,3 +27,4 @@ function appointment_form_styles() {
     );
 }
 add_action('wp_enqueue_scripts', 'appointment_form_styles');
+11
