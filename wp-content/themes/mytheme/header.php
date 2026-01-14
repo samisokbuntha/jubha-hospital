@@ -1,3 +1,4 @@
+<<<<<<<<< Temporary merge branch 1
     <!DOCTYPE html>
     <html <?php language_attributes(); ?>>
     <head>
@@ -36,5 +37,7 @@
                 </ul>
             </nav>
         </div>
-        
-    </header>
+
+    </header>2
+=========
+>>>>>>>>> Temporary merge branch 2
