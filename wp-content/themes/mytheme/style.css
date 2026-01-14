@@ -26,10 +26,30 @@ body {
     align-items: center;
     position: relative;
 }
-.hero-section img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+
+
+/* Main content */
+.site-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+/* ///////////////Emergency////////// */
+.emergency {
+    text-align: center;
+    
+}
+
+
+
+
+/* //////Footer1///////// */
+/* ////////////////////////////////////// */
+.main-footer{
+   .......
 }
 .hero-service {
     width: 100%;
@@ -323,37 +343,3 @@ img {
     padding: 15px;
     margin-top: 40px;
 }
-<<<<<<< HEAD
-=======
-/* //////Header and Footer///////// */
-/* ////////////////////////////////////// */
-.site-header,
-.site-footer {
-    background: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
-
-
- .big-cat {
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    }
-    .big-cat img{
-        border-radius: 20px;
-        width: 400px;
-        
-    }
-h1   {
-    color: white;
-}
->>>>>>> 72f162ba0701ce13c79c4b04392c725727dc9ba3
