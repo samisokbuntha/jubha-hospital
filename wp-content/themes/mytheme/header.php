@@ -15,14 +15,14 @@
         <div class="header-container">
 
             <div class="header-logo">
-               <img src="<?php echo get_template_directory_uri(); ?>/image/logo1.png" alt="">
+               <a href=""><img src="<?php echo get_template_directory_uri(); ?>/image/logo1.png" alt=""></a>
             </div>
 
         </div>
         <div class="big-header">
             <div class="header-actions">
-                <a href="#"><i class="fa-solid fa-phone"></i> 090 847 087</a>
-                <a href="#"><i class="fa-solid fa-calendar-days"></i> Dr Calendar</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> Imergincy</a>
+                <a href="http://jubha-hospital.test/appointment/"><i class="fa-solid fa-calendar-days"></i> Dr Calendar</a>
             </div>
        
             <nav class="header-nav">
