@@ -22,7 +22,7 @@
         <div class="big-header">
             <!-- Right icons -->
             <div class="header-actions">
-                <a href="#"><i class="fa-solid fa-phone"></i> Imergincy</a>
+                <a href="#"><i class="fa-solid fa-truck-medical"></i> Imergincy</a>
                 <a href="http://jubha-hospital.test/appointment/"><i class="fa-solid fa-calendar-days"></i> Dr Calendar</a>
             </div>
          <!-- Navigation -->
