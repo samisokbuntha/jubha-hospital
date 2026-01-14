@@ -13,18 +13,17 @@
     <header class="main-header">
         <div class="header-container">
 
-            <!-- Logo -->
             <div class="header-logo">
                <img src="<?php echo get_template_directory_uri(); ?>/image/logo1.png" alt="">
             </div>
 
         </div>
         <div class="big-header">
-            <!-- Right icons -->            <div class="header-actions">
+            <div class="header-actions">
                 <a href="#"><i class="fa-solid fa-phone"></i> 090 847 087</a>
                 <a href="#"><i class="fa-solid fa-calendar-days"></i> Dr Calendar</a>
             </div>
-         <!-- Navigation -->
+       
             <nav class="header-nav">
                 <ul>
                     <li><a href="">Home</a></li>
@@ -36,4 +35,4 @@
             </nav>
         </div>
 
-    </header>1
+    </header>2
