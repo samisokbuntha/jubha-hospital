@@ -111,6 +111,7 @@
 
     </div>
 
+
     <div class="space-y-6">
       <header>
         <p class="text-cyan-400 uppercase tracking-widest text-sm font-semibold mb-2">Statistics</p>
@@ -197,7 +198,7 @@
 
 
 
-<!-- <-----department---------> 
+
 
 
 <div class="almana-departments-section">
@@ -243,7 +244,7 @@
 </div>
 
 
-<!-- <------locations--------->
+
 
   <section class="max-w-7xl mx-auto py-16 px-6">
     <div class="text-center mb-12">
@@ -305,3 +306,4 @@
   </section>
 
 </body>
+<?php get_footer(); ?>
