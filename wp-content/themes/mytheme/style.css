@@ -11,16 +11,90 @@ Version: 1.0
 }
 
 body {
+    padding: 0px 0px;
     font-family: Arial, sans-serif;
     background: #ffffff;
     color: #ffffff;
 }
 
-<<<<<<< HEAD
+
 /* Header */
 /* ///////////// */
-=======
 
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background-color:white;
+    padding: 0px 50px;
+ 
+}
+
+.header-logo img{
+    width: 120px;
+}
+
+.header-nav{
+    background-color:white;
+    
+    border-bottom:4px solid#0084ff;
+}
+
+.header-nav ul {
+  
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav a {
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+/* Hidden bar */
+.header-nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 3px;
+    width: 0; /* 🔴 start hidden */
+    background-color: #0084ff;
+
+    transition: width 0.3s ease; /* ✅ 3 seconds */
+}
+
+/* Hover effect */
+.header-nav a:hover {
+    color: #0084ff;
+}
+
+.header-nav a:hover::after {
+    width: 100%; /* 🔵 show bar */
+}
+
+.header-actions a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+.header-actions{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    justify-content: end;
+    padding-right: 50px;
+}
 .hero-section {
     width: 100%;
     height: 500px;
@@ -48,15 +122,11 @@ body {
 }
 
 
->>>>>>> 2328607b3a0c189e2d16588001a53b5f4858dea4
-
-
 /* //////Footer1///////// */
 /* ////////////////////////////////////// */
 .main-footer{
    .......
 }
-<<<<<<< HEAD
 
 .footer-1{
     background-color: #edf6ff;
@@ -341,7 +411,7 @@ textarea {
     .form-row {
         flex-direction: column;
     }
-=======
+
 .hero-service {
     width: 100%;
     height: 400px;
