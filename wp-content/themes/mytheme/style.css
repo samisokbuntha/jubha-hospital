@@ -125,7 +125,7 @@ body {
 /* //////Footer1///////// */
 /* ////////////////////////////////////// */
 .main-footer{
-   .......
+   
 }
 
 .footer-1{
@@ -411,6 +411,7 @@ textarea {
     .form-row {
         flex-direction: column;
     }
+}
 
 .hero-service {
     width: 100%;
@@ -703,5 +704,5 @@ img {
     text-align: center;
     padding: 15px;
     margin-top: 40px;
->>>>>>> 2328607b3a0c189e2d16588001a53b5f4858dea4
+
 }
