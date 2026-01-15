@@ -1,4 +1,4 @@
-<<<<<<<<< Temporary merge branch 1
+
     <!DOCTYPE html>
     <html <?php language_attributes(); ?>>
     <head>

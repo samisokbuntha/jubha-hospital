@@ -16,39 +16,8 @@ body {
     color: #ffffff;
 }
 
-<<<<<<< HEAD
 /* Header */
 /* ///////////// */
-=======
-
-.hero-section {
-    width: 100%;
-    height: 500px;
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-
-
-/* Main content */
-.site-content {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-    background: #fff;
-}
-
-/* ///////////////Emergency////////// */
-.emergency {
-    text-align: center;
-    
-}
-
-
->>>>>>> 2328607b3a0c189e2d16588001a53b5f4858dea4
 
 
 /* //////Footer1///////// */
@@ -341,7 +310,8 @@ textarea {
     .form-row {
         flex-direction: column;
     }
-=======
+
+
 .hero-service {
     width: 100%;
     height: 400px;
