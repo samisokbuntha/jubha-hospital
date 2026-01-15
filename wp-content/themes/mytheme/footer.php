@@ -7,6 +7,7 @@
 
         <?php wp_head(); ?>
     </head>
+    
 
     <body <?php body_class(); ?>>
 
@@ -39,7 +40,7 @@
             
              <!-- logo-site -->
             <div class="logo-site">
-                <img src="<?php echo get_template_directory_uri(); ?>/image/logo1.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/image/logo3.png" alt="">
             </div>
             
             <div class="footer2-content">
@@ -83,4 +84,4 @@
             </div>
                 
         </div>
-    </footer>
+    </footer>11
