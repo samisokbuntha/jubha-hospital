@@ -34,14 +34,15 @@ body {
   
   /* Fixed Gradient: Standardize the syntax */
   background-image: 
-    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,1)),
+
     url("https://static.scientificamerican.com/sciam/cache/file/3A236506-E48D-4F38-B1A565180005173E_source.jpg?w=1200");
   
   background-size: cover;
   background-position: center;
   
   /* The Blur Effect */
-  filter: blur(5px);
+  filter: blur(1px);
   transform: scale(1.1); /* Prevents white "halos" at the edges */
   
   /* Placement */
@@ -941,4 +942,10 @@ h1   {
     border-bottom: 10px solid transparent;
     border-left: 15px solid white;
     margin-left: 5px;
+}
+
+
+
+.text-gray-600 p{
+    color: #ffffff;
 }
