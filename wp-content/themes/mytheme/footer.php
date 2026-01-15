@@ -7,6 +7,7 @@
 
         <?php wp_head(); ?>
     </head>
+    
 
     <body <?php body_class(); ?>>
 
@@ -83,4 +84,4 @@
             </div>
                 
         </div>
-    </footer>
+    </footer>11

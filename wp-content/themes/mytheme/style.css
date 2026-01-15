@@ -16,6 +16,10 @@ body {
     color: #ffffff;
 }
 
+<<<<<<< HEAD
+/* Header */
+/* ///////////// */
+=======
 
 .hero-section {
     width: 100%;
@@ -26,11 +30,318 @@ body {
     align-items: center;
     position: relative;
 }
-.hero-section img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+
+
+/* Main content */
+.site-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
 }
+
+/* ///////////////Emergency////////// */
+.emergency {
+    text-align: center;
+    
+}
+
+
+>>>>>>> 2328607b3a0c189e2d16588001a53b5f4858dea4
+
+
+/* //////Footer1///////// */
+/* ////////////////////////////////////// */
+.main-footer{
+   .......
+}
+<<<<<<< HEAD
+
+.footer-1{
+    background-color: #edf6ff;
+    border-top:3px solid#0084ff;
+    padding-top: 30px;
+     padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.footer-contact{
+
+}
+
+.footer-contact h2{
+    
+    color: black;
+    margin-bottom: 30px;
+}
+
+.footer-i i{
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+.footer-s input{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 20px;
+    border: 2px solid #ccc;
+}
+
+#sub {
+   width: 100px;
+    color: rgb(0, 0, 0);
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+
+}
+
+#sub::placeholder {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+}
+
+/* /////footer2///// */
+.footer2{
+    
+    display: flex;
+    padding-top: 30px;
+    padding-left: 200px;
+
+}
+
+.footer2-content{
+    display: flex;
+    gap: 120px;
+
+}
+
+.logo-site{
+    padding-right: 250px;
+}
+.logo-site img {
+    width: 150px;
+}
+
+.about-inter {
+    width: 300px;
+}
+
+.about-inter h2{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.about-inter ul li a{
+    text-decoration: none;
+    color: #000000;
+   
+}
+
+.about-inter li{
+    margin-bottom: 10px;
+}
+
+.find-us{
+  width: 300px;  
+}
+
+.find-us h2{
+    color: #000000;
+     margin-bottom: 20px;
+}
+
+.find-us ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.find-us li{
+     margin-bottom: 10px;
+}
+/* 
+///////////Appointment/////////////// */
+
+.ap-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    border-bottom:4px solid#0084ff;
+}
+
+.ap-header h1{
+    color: #000000;
+    margin: 40px 0;
+}
+
+.ap-header img{
+    width: 100px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.appointment-wrapper {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #0b3a6f;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #000000;
+}
+
+label span {
+    font-weight: normal;
+    color: #888;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* Phone */
+.phone-input {
+    display: flex;
+    gap: 10px;
+}
+
+.country-code {
+    background: #f5f5f5;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    padding: 14px 12px;
+    white-space: nowrap;
+    color: #000000;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    margin-top: 6px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 100;
+}
+
+.dropdown-list li {
+    padding: 12px 16px;
+    cursor: pointer;
+    color: black;
+}
+
+.dropdown-list li:hover {
+    background: #f1f1f1;
+}
+
+.dropdown-list li img {
+    width: 50px;
+    border-radius: 200px;
+}
+
+/* Checkbox */
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    gap: px;
+    margin: 25px 0;
+    width: 300px;
+    display: flex;
+}
+
+.form-checkbox span{
+    color: #000000;
+    width: 700px;
+}
+
+.form-checkbox a {
+    color: #0b3a6f;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Button */
+.submit-btn {
+    width: 100%;
+    background:#0084ff;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #092f59;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+    }
+=======
 .hero-service {
     width: 100%;
     height: 400px;
@@ -322,35 +633,5 @@ img {
     text-align: center;
     padding: 15px;
     margin-top: 40px;
-}
-/* //////Header and Footer///////// */
-/* ////////////////////////////////////// */
-.site-header,
-.site-footer {
-    background: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
-
-
- .big-cat {
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    }
-    .big-cat img{
-        border-radius: 20px;
-        width: 400px;
-        
-    }
-h1   {
-    color: white;
+>>>>>>> 2328607b3a0c189e2d16588001a53b5f4858dea4
 }
