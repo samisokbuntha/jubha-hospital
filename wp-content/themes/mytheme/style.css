@@ -37,7 +37,7 @@ body {
 
 .header-nav{
     background-color:white;
-    
+    justify-content: center;
     border-bottom:4px solid#0084ff;
 }
 
