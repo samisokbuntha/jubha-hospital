@@ -52,6 +52,7 @@ function mytheme_html5_support() {
         'caption',
     ));
 }
+
 add_action('after_setup_theme', 'mytheme_html5_support');
 
 
@@ -59,3 +60,6 @@ add_action('after_setup_theme', 'mytheme_html5_support');
  * Remove WordPress Version (Security)
  * ------------------------------------------------- */
 remove_action('wp_head', 'wp_generator');
+=======
+add_action('wp_enqueue_scripts', 'appointment_form_styles');
+
