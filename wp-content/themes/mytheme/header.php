@@ -1,10 +1,5 @@
-
-    <!DOCTYPE html>
-    <html <?php language_attributes(); ?>>
-    <head>
-        <meta charset="<?php bloginfo('charset'); ?>">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title><?php bloginfo('name'); ?></title>
+<?php
+?>
 
         <?php wp_head(); ?>
     </head>
@@ -16,7 +11,7 @@
 
             <!-- Logo -->
             <div class="header-logo">
-               <a href=""><img src="<?php echo get_template_directory_uri(); ?>/image/logo1.png" alt=""></a>
+               <a href=""><img src="<?php echo get_template_directory_uri(); ?>/image/logo3.png" alt=""></a>
             </div>
             
         </div>
@@ -26,7 +21,12 @@
                 <a href="#"><i class="fa-solid fa-truck-medical"></i> Imergincy</a>
                 <a href="http://jubha-hospital.test/appointment/"><i class="fa-solid fa-calendar-days"></i> Dr Calendar</a>
             </div>
-         <!-- Navigation -->
+        </div>
+        
+
+        
+    </header>
+    <!-- Navigation -->
             <nav class="header-nav">
                 <ul>
                     <li><a href="">Home</a></li>
@@ -36,7 +36,3 @@
                     <li><a href="">Rewards</a></li>
                 </ul>
             </nav>
-        </div>
-
-        
-    </header>11
