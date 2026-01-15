@@ -1,6 +1,6 @@
 <?php
 ?>
-
+    <BR></BR> <BR></BR>
         <?php wp_head(); ?>
     </head>
 
