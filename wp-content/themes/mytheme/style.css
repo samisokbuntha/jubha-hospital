@@ -19,7 +19,7 @@ body {
 <<<<<<< HEAD
 /* Header */
 /* ///////////// */
-=======
+
 
 .hero-section {
     width: 100%;
@@ -48,7 +48,7 @@ body {
 }
 
 
->>>>>>> 2328607b3a0c189e2d16588001a53b5f4858dea4
+
 
 
 /* //////Footer1///////// */
@@ -122,7 +122,6 @@ body {
 .footer2-content{
     display: flex;
     gap: 120px;
-
 }
 
 .logo-site{
@@ -341,7 +340,7 @@ textarea {
     .form-row {
         flex-direction: column;
     }
-=======
+
 .hero-service {
     width: 100%;
     height: 400px;
