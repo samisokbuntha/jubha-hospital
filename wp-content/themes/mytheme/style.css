@@ -54,7 +54,7 @@ body {
   /* Placement */
   z-index: -1; /* Must be -1 to sit BEHIND the text inside .p-6 */
 }
->>>>>>> main
+
 
 
 .hero-section {
