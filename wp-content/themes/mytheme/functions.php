@@ -4,7 +4,14 @@
  * File: functions.php
  */
 
-/* Theme Setup */
+// Prevent direct access
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+/* -------------------------------------------------
+ * Theme Setup
+ * ------------------------------------------------- */
 function mytheme_setup() {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
@@ -15,13 +22,24 @@ function mytheme_setup() {
 }
 add_action('after_setup_theme', 'mytheme_setup');
 
-/* Enqueue CSS */
+
+/* -------------------------------------------------
+ * Enqueue CSS
+ * ------------------------------------------------- */
 function mytheme_assets() {
     wp_enqueue_style(
         'mytheme-style',
         get_stylesheet_uri(),
         array(),
         wp_get_theme()->get('Version')
+    );
+
+    // Appointment form stylesheet
+    wp_enqueue_style(
+        'appointment-form-style',
+        get_stylesheet_directory_uri() . '/appointment.css',
+        array(),
+        '1.0'
     );
 }
 add_action('wp_enqueue_scripts', 'mytheme_assets');
