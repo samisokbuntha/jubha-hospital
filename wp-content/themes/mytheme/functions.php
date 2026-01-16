@@ -1,29 +1,65 @@
-
 <?php
-function my_theme_enqueue_styles() {
+/**
+ * Theme Functions
+ * File: functions.php
+ */
 
-    // Theme main stylesheet
-    wp_enqueue_style(
-        'my-theme-style',
-        get_stylesheet_uri()
-    );
+/* -------------------------------------------------
+ * Theme Setup
+ * ------------------------------------------------- */
+function mytheme_setup() {
 
-    // Font Awesome
+    // Let WordPress manage the document title
+    add_theme_support('title-tag');
+
+    // Enable featured images
+    add_theme_support('post-thumbnails');
+
+    // Register navigation menu
+    register_nav_menus(array(
+        'primary' => __('Primary Menu', 'mytheme'),
+    ));
+}
+add_action('after_setup_theme', 'mytheme_setup');
+
+
+/* -------------------------------------------------
+ * Enqueue CSS & JS
+ * ------------------------------------------------- */
+function mytheme_assets() {
+
+    // Main stylesheet
     wp_enqueue_style(
-        'font-awesome',
-        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css',
+        'mytheme-style',
+        get_stylesheet_uri(),
         array(),
-        '6.5.1'
+        wp_get_theme()->get('Version')
     );
 
 }
-add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
-function appointment_form_styles() {
-    wp_enqueue_style(
-        'appointment-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        [],
-        '1.0'
-    );
+add_action('wp_enqueue_scripts', 'mytheme_assets');
+
+
+/* -------------------------------------------------
+ * Enable HTML5 Support
+ * ------------------------------------------------- */
+function mytheme_html5_support() {
+    add_theme_support('html5', array(
+        'search-form',
+        'comment-form',
+        'comment-list',
+        'gallery',
+        'caption',
+    ));
 }
+
+add_action('after_setup_theme', 'mytheme_html5_support');
+
+
+/* -------------------------------------------------
+ * Remove WordPress Version (Security)
+ * ------------------------------------------------- */
+remove_action('wp_head', 'wp_generator');
+=======
 add_action('wp_enqueue_scripts', 'appointment_form_styles');
+
