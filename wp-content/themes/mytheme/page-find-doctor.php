@@ -152,4 +152,4 @@
         <a href="#" class="doctor-profile-link">View Profile</a>
     </div>
 
-    <?php get_footer(); ?>
+    
