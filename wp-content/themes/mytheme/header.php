@@ -1,3 +1,4 @@
+
     <!DOCTYPE html>
     <html <?php language_attributes(); ?>>
     <head>
@@ -13,19 +14,17 @@
     <header class="main-header">
         <div class="header-container">
 
-            <!-- Logo -->
             <div class="header-logo">
                <a href=""><img src="<?php echo get_template_directory_uri(); ?>/image/logo1.png" alt=""></a>
             </div>
-            
+
         </div>
         <div class="big-header">
-            <!-- Right icons -->
             <div class="header-actions">
                 <a href="#"><i class="fa-solid fa-phone"></i> Imergincy</a>
                 <a href="http://jubha-hospital.test/appointment/"><i class="fa-solid fa-calendar-days"></i> Dr Calendar</a>
             </div>
-         <!-- Navigation -->
+       
             <nav class="header-nav">
                 <ul>
                     <li><a href="">Home</a></li>
@@ -36,5 +35,5 @@
                 </ul>
             </nav>
         </div>
-        
-    </header>
+
+    </header>2
