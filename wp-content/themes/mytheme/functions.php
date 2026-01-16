@@ -70,4 +70,8 @@ function mytheme_font_icons() {
         '6.5.1'
     );
 }
+
+add_action('wp_enqueue_scripts', 'appointment_form_styles');
+
 add_action('wp_enqueue_scripts', 'mytheme_font_icons');
+
