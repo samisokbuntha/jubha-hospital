@@ -29,10 +29,116 @@
         <h3>95% <br> Our success</h3>
     </div>
 </div>
-<br>
-<br>
+
+<section class="almana-container">
+    
+    <div class="almana-content">
+        <div class="almana-label">About Us</div>
+        <h2 class="almana-headline">Seven decades of care and quality</h2>
+        <p class="almana-description">
+            Since our inception in 1949, we have a legacy of excellence. We are a family hospital fully dedicated to caring for the needs of the patients, communities, and Kingdom we serve to keep healthy. Almana believes in offering compassionate care, inspired by family values which ...
+        </p>
+        <a href="#" class="almana-button">READ MORE &rarr;</a>
+    </div>
+
+    <div class="almana-visual">
+        <div class="almana-image-wrapper">
+            <img src="<?php echo get_template_directory_uri(); ?>/image/doctor-nha.jpg" alt="Almana Hospital Group">
+            
+            <div class="play-trigger"></div>
+
+            <div class="year-badge">
+                <div class="year-number">1949</div>
+                <div class="year-text">Serving the<br>community since</div>
+            </div>
+        </div>
+    </div>
+
+</section>
 
 
+<section class="dept-category-section">
+    <div class="dept-header">
+        <h2>Department Category</h2>
+        <p>Browse by department for tailored services and expert solutions</p>
+    </div>
+
+    <div class="dept-grid">
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <i class="fas fa-kidneys"></i> <img src="https://img.icons8.com/ios/100/2196F3/kidneys.png" alt="Kidneys">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/hearts.png" alt="Heart">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/lungs.png" alt="Lungs">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/tooth.png" alt="Tooth">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/brain.png" alt="Brain">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/joint.png" alt="Joints">
+            </div>
+        </div>
+        <br><br>
+        <div class="dept-grid">
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <i class="fas fa-kidneys"></i> <img src="https://img.icons8.com/ios/100/2196F3/kidneys.png" alt="Kidneys">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/hearts.png" alt="Heart">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/lungs.png" alt="Lungs">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/tooth.png" alt="Tooth">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/lungs.png" alt="Brain">
+            </div>
+        </div>
+
+        <div class="dept-card">
+            <div class="dept-icon-box">
+                <img src="https://img.icons8.com/ios/100/2196F3/hand.png" alt="Joints">
+            </div>
+        </div>
+
+    </div>
+</section>
 
 
 
@@ -118,14 +224,14 @@
       
       <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow">
         <div class="p-6">
-          <h3 class="text-xl font-bold text-teal-900 mb-2">AGH Khobar</h3>
-          <p class="text-sm text-gray-600 mb-4 italic">The flagship tertiary care hospital providing comprehensive services.</p>
-          <div class="space-y-2 text-sm text-gray-700">
-            <p><strong>📍 Location:</strong> Al Khobar, KSA</p>
-            <p><strong>📞 Phone:</strong> +966 13 867 9400</p>
+          <h3>AGH Khobar</h3>
+          <p">The flagship tertiary care hospital providing comprehensive services.</p>
+          <div class="space-y-2">
+            <p><strong>📍 Location:</strong> Dammam, KSA</p>
+            <p><strong>📞 Phone:</strong> +966 13 826 2111</p>
             <p><strong>🕒 Hours:</strong> 24/7 (Emergency)</p>
           </div>
-          <div class="mt-6 flex gap-2">
+           <div class="mt-6 flex gap-2">
             <button class="flex-1 bg-teal-700 text-white py-2 text-xs font-bold rounded hover:bg-teal-800">VIEW LOCATION</button>
             <button class="flex-1 border border-teal-700 text-teal-700 py-2 text-xs font-bold rounded hover:bg-teal-50">BOOK NOW</button>
           </div>
@@ -134,9 +240,9 @@
 
       <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow">
         <div class="p-6">
-          <h3 class="text-xl font-bold text-teal-900 mb-2">AGH Dammam</h3>
-          <p class="text-sm text-gray-600 mb-4 italic">Equipped with the latest medical technologies in the heart of Dammam.</p>
-          <div class="space-y-2 text-sm text-gray-700">
+          <h3>AGH Dammam</h3>
+          <p>Equipped with the latest medical technologies in the heart of Dammam.</p>
+          <div class="space-y-2">
             <p><strong>📍 Location:</strong> Dammam, KSA</p>
             <p><strong>📞 Phone:</strong> +966 13 826 2111</p>
             <p><strong>🕒 Hours:</strong> 24/7 (Emergency)</p>
@@ -150,9 +256,10 @@
 
       <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow">
         <div class="p-6">
-          <h3 class="text-xl font-bold text-teal-900 mb-2">AGH Jubail</h3>
-          <p class="text-sm text-gray-600 mb-4 italic">Serving the industrial community with specialized trauma care.</p>
-          <div class="space-y-2 text-sm text-gray-700">
+          
+          <h3>AGH Jubail</h3>
+          <p>Serving the industrial community with specialized trauma care.</p>
+          <div class="space-y-2">
             <p><strong>📍 Location:</strong> Jubail Industrial City, KSA</p>
             <p><strong>📞 Phone:</strong> +966 13 361 1000</p>
             <p><strong>🕒 Hours:</strong> 24/7 (Emergency)</p>
