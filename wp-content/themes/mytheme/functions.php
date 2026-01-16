@@ -71,3 +71,16 @@ add_action('after_setup_theme', 'mytheme_html5_support');
  * Remove WordPress Version (Security)
  * ------------------------------------------------- */
 remove_action('wp_head', 'wp_generator');
+
+/* -------------------------------------------------
+ * Font Awesome Icons
+ * ------------------------------------------------- */
+function mytheme_font_icons() {
+    wp_enqueue_style(
+        'font-awesome',
+        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css',
+        array(),
+        '6.5.1'
+    );
+}
+add_action('wp_enqueue_scripts', 'mytheme_font_icons');
