@@ -1,3 +1,4 @@
+
 <?php
 /** 
 Plugin Name: plugin appoinment
@@ -38,6 +39,20 @@ function boking_appionment_add_menu() {
         'plugin appoinment',
         'Create Doctor',
         'Create Doctor',
+
+        'manage_options',
+        'create-doctor',
+        'create_doctor_page'
+    );
+
+    // SUB MENU: Create Appointment
+    add_submenu_page(
+        'plugin appoinment',
+        'Create Appointment',
+        'Create Appointment',
+        'manage_options',
+        'create-appointment',
+        'create_appointment_page'
         'manage_options',
         'create-doctor',
         'create_doctor_page'
@@ -63,6 +78,43 @@ function boking_appionment_page() {
     <div class="wrap">
         <h1>plugin appoinment</h1>
         <p>This is the main Booking Appointment dashboard.</p>
+    </div>
+    <?php
+}
+
+function create_patient_page() {
+    ?>
+    <div class="wrap">
+        <h1>Patient</h1>
+        <p>kobsari</p>
+    </div>
+    <?php
+}
+
+function create_doctor_page() {
+    ?>
+    <div class="wrap">
+        <h1>Create Doctor</h1>
+        <p>Doctor creation form goes here.</p>
+    </div>
+    <?php
+}
+
+/* ==========================
+   PAGE CALLBACK FUNCTIONS
+   ========================== */
+
+function boking_appionment_page() {
+    ?>
+    <div class="wrap">
+        <h1>plugin appoinment</h1>
+        <p>This is the main Booking Appointment dashboard.</p>
+function create_appointment_page() {
+    ?>
+    <div class="wrap">
+        <h1>Create Appointment</h1>
+        <p>Appointment booking form goes here.</p>
+
     </div>
     <?php
 }
