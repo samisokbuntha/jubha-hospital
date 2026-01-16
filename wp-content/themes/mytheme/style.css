@@ -127,6 +127,7 @@ body {
     gap: 30px;
 }
 
+ 
 .header-nav li{
     list-style: none;
     padding: 0;
@@ -764,6 +765,65 @@ h1   {
     color: white;
 }
 /* //////find doctor////// */
+
+/* Wrapper */
+.search-wrapper {
+    background: #adb4b4;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Search Bar */
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Input */
+.search-input {
+    flex: 2;
+    padding: 14px 20px;
+    border-radius: 30px;
+    border: none;
+    background: #f1f1f1;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Select */
+.search-select {
+    flex: 1.5;
+    padding: 14px 20px;
+    border-radius: 30px;
+    border: 1px solid #20b2c9;
+    background: #fff;
+    font-size: 16px;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+/* Button */
+.search-btn {
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    background: #004f63;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-btn:hover {
+    background: #006f88;
+}
 
 .doctor-cards-container {
     display: flex;

@@ -1,6 +1,8 @@
-<?php get_header(); ?>
+
 
 <img class="banner2" src="<?php echo get_template_directory_uri(); ?>/image/banner2.png" alt="">
+
+<body>
 
 <div class="search-wrapper">
     <form class="search-box">
@@ -11,25 +13,26 @@
             class="search-input">
 
         <select class="search-select">
-            <option selected disabled>Select Location</option>
+            <option>Select Location</option>
             <option>Phnom Penh</option>
             <option>Siem Reap</option>
             <option>Battambang</option>
         </select>
 
         <select class="search-select">
-            <option selected disabled>Select Specialization</option>
+            <option>Select Specialization</option>
             <option>Cardiology</option>
-            <option>Dentist</option>
+            <option>Dermatology</option>
             <option>Pediatrics</option>
         </select>
 
         <button type="submit" class="search-btn">
-            SEARCH 🔍
+            SEARCH
         </button>
 
     </form>
 </div>
+
 <div class="doctor-cards-container">
     <div class="doctor-card">
         <img src="<?php echo get_template_directory_uri(); ?>/image/doctor.png" alt="Doctor 1" class="doctor-image">
