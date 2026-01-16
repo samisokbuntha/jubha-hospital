@@ -1,4 +1,4 @@
-show me where is conflicts /*
+/*
 Theme Name: My Theme
 Author: You
 Version: 1.0
@@ -18,10 +18,6 @@ body {
     background: #ffffff;
     color: #ffffff;
 }
-
-
-/* Header */
-/* ///////////// */
 
 .p-6 {
   position: relative; /* Essential: This contains the ::before element */
@@ -54,7 +50,6 @@ body {
   /* Placement */
   z-index: -1; /* Must be -1 to sit BEHIND the text inside .p-6 */
 }
->>>>>>> main
 
 
 .hero-section {
@@ -89,10 +84,7 @@ body {
 .main-header {
     
    width: 100%;
-    align-items: center;
-   
-   
-    
+    align-items: center; 
     position: fixed;
     top: 0;
     z-index: 100;
@@ -106,9 +98,6 @@ body {
     padding: 10px 0;
     background-color:white;
     padding: 0px 50px;
-
-
-
 
 }
 
@@ -256,6 +245,7 @@ body {
 .footer2-content{
     display: flex;
     gap: 120px;
+
 }
 
 .logo-site{
@@ -737,6 +727,9 @@ img {
     border-left: 18px solid white;
     margin-left: 5px;
 }
+
+
+
 
 /* Main content */
 .site-content {
