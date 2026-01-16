@@ -8,8 +8,7 @@
         <input 
             type="text" 
             placeholder="Type the doctor's name"
-            class="search-input"
-        >
+            class="search-input">
 
         <select class="search-select">
             <option selected disabled>Select Location</option>
@@ -154,7 +153,5 @@
 
     <?php get_footer(); ?>
 
-<div class="banner">
-    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/image/banner.png" alt=""></a>
-</div>
+
  
