@@ -13,7 +13,7 @@
 
                     <!-- Logo -->
                     <div class="header-logo">
-                       <a href=""><img src="<?php echo get_template_directory_uri(); ?>/image/logo3.png" alt=""></a>
+                       <a href="http://jubha-hospital.test/"><img src="<?php echo get_template_directory_uri(); ?>/image/logo3.png" alt=""></a>
                     </div>
 
                 </div>
@@ -30,9 +30,8 @@
 
                <!-- Navigation -->
             <nav class="header-nav">
-                <ul>
-                   
-                    <li><a href="">Find Doctor</a></li>
+                <ul class="nav-links">
+                    <li><a href="http://jubha-hospital.test/find-doctor/">Find Doctor</a></li>
                     <li><a href="">Patient Informations</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Media</a></li>
@@ -40,8 +39,5 @@
                      <li><a href="">National Day Offers</a></li>
                 </ul>
             </nav>
-        
-
-        
     </header>
     
