@@ -5,7 +5,7 @@
  */
 
 // Prevent direct access
-if (!defined('ABSPATH')) {
+if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
@@ -13,25 +13,26 @@ if (!defined('ABSPATH')) {
  * Theme Setup
  * ------------------------------------------------- */
 function mytheme_setup() {
-    add_theme_support('title-tag');
-    add_theme_support('post-thumbnails');
+    add_theme_support( 'title-tag' );
+    add_theme_support( 'post-thumbnails' );
 
-    register_nav_menus(array(
-        'primary' => __('Primary Menu', 'mytheme'),
-    ));
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'mytheme' ),
+    ) );
 }
-add_action('after_setup_theme', 'mytheme_setup');
-
+add_action( 'after_setup_theme', 'mytheme_setup' );
 
 /* -------------------------------------------------
- * Enqueue CSS
+ * Enqueue Styles (CSS)
  * ------------------------------------------------- */
 function mytheme_assets() {
+
+    // Main theme stylesheet (style.css)
     wp_enqueue_style(
         'mytheme-style',
         get_stylesheet_uri(),
         array(),
-        wp_get_theme()->get('Version')
+        wp_get_theme()->get( 'Version' )
     );
 
     // Appointment form stylesheet
@@ -42,22 +43,26 @@ function mytheme_assets() {
         '1.0'
     );
 }
-add_action('wp_enqueue_scripts', 'mytheme_assets');
+add_action( 'wp_enqueue_scripts', 'mytheme_assets' );
 
-/* HTML5 Support */
+/* -------------------------------------------------
+ * HTML5 Support
+ * ------------------------------------------------- */
 function mytheme_html5_support() {
-    add_theme_support('html5', array(
+    add_theme_support( 'html5', array(
         'search-form',
         'comment-form',
         'comment-list',
         'gallery',
         'caption',
-    ));
+    ) );
 }
-add_action('after_setup_theme', 'mytheme_html5_support');
+add_action( 'after_setup_theme', 'mytheme_html5_support' );
 
-/* Remove WordPress Version */
-remove_action('wp_head', 'wp_generator');
+/* -------------------------------------------------
+ * Remove WordPress Version from <head>
+ * ------------------------------------------------- */
+remove_action( 'wp_head', 'wp_generator' );
 
 /* -------------------------------------------------
  * Font Awesome Icons
@@ -70,8 +75,4 @@ function mytheme_font_icons() {
         '6.5.1'
     );
 }
-
-add_action('wp_enqueue_scripts', 'appointment_form_styles');
-
-add_action('wp_enqueue_scripts', 'mytheme_font_icons');
-
+add_action( 'wp_enqueue_scripts', 'mytheme_font_icons' );
